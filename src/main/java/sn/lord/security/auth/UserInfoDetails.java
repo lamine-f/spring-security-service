@@ -1,9 +1,9 @@
-package sn.lord.ensae.hint.security.auth;
+package sn.lord.security.auth;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority; 
 import org.springframework.security.core.userdetails.UserDetails;
-import sn.lord.ensae.hint.security.entity.UserInfo;
+import sn.lord.security.entity.UserInfo;
 import java.util.Arrays;
 import java.util.Collection; 
 import java.util.List; 

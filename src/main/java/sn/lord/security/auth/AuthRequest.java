@@ -1,4 +1,4 @@
-package sn.lord.ensae.hint.security.auth;
+package sn.lord.security.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

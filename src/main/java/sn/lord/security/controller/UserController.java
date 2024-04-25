@@ -1,4 +1,4 @@
-package sn.lord.ensae.hint.security.controller;
+package sn.lord.security.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -8,12 +8,12 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.bind.annotation.*;
-import sn.lord.ensae.hint.security.auth.AuthRequest;
-import sn.lord.ensae.hint.security.dtos.UserInfoDetailsDto;
-import sn.lord.ensae.hint.security.dtos.UserInfoDto;
-import sn.lord.ensae.hint.security.entity.UserInfo;
-import sn.lord.ensae.hint.security.jwt.JwtService;
-import sn.lord.ensae.hint.security.service.UserInfoService;
+import sn.lord.security.auth.AuthRequest;
+import sn.lord.security.dtos.UserInfoDto;
+import sn.lord.security.dtos.UserInfoDetailsDto;
+import sn.lord.security.entity.UserInfo;
+import sn.lord.security.jwt.JwtService;
+import sn.lord.security.service.UserInfoService;
 
 import java.util.Map;
 

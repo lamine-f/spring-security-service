@@ -1,6 +1,6 @@
-package sn.lord.ensae.hint.security;
+package sn.lord.security;
 
-import sn.lord.ensae.hint.security.service.UserInfoService;
+import sn.lord.security.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

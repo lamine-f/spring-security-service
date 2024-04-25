@@ -1,4 +1,4 @@
-package sn.lord.ensae.hint.security.jwt;
+package sn.lord.security.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -17,7 +17,7 @@ import java.util.function.Function;
 @Component
 public class JwtService { 
   
-    public static final String SECRET = "4267566B59703373367639792F423F4528482B4D6251655468576D5A71347437";
+    public static final String SECRET = "8CTMBX8R9QWT9F0CGJYGNLF9GLYF1H3KVCDT7T6OWXIG5SMS5AIUZHKL0JGS1ACC";
     
     public String generateToken(String userName) { 
         Map<String, Object> claims = new HashMap<>(); 

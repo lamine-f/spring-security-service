@@ -1,7 +1,7 @@
-package sn.lord.ensae.hint.security.configs;
+package sn.lord.security.configs;
 
-import sn.lord.ensae.hint.security.jwt.JwtAuthFilter;
-import sn.lord.ensae.hint.security.service.UserInfoService;
+import sn.lord.security.jwt.JwtAuthFilter;
+import sn.lord.security.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean; 
 import org.springframework.context.annotation.Configuration; 
@@ -77,6 +77,5 @@ public class SecurityConfig {
     public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception { 
         return config.getAuthenticationManager(); 
     } 
-  
-  
+
 } 
