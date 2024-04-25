@@ -1,4 +1,4 @@
-package sn.lord.ensae.hint.security.entity;
+package sn.lord.security.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

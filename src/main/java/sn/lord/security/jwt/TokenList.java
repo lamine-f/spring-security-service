@@ -1,4 +1,4 @@
-package sn.lord.ensae.hint.security.jwt;
+package sn.lord.security.jwt;
 
 import java.util.HashMap;
 

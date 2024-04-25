@@ -1,10 +1,10 @@
-package sn.lord.ensae.hint.security.dtos;
+package sn.lord.security.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import sn.lord.ensae.hint.security.entity.UserInfo;
+import sn.lord.security.entity.UserInfo;
 
 import java.io.Serializable;
 

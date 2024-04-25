@@ -1,10 +1,10 @@
-package sn.lord.ensae.hint.security.repository;
+package sn.lord.security.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import sn.lord.ensae.hint.security.entity.UserInfo;
+import sn.lord.security.entity.UserInfo;
 
 @Repository
 public interface UserInfoRepository extends JpaRepository<UserInfo, String> {

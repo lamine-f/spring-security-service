@@ -1,4 +1,4 @@
-package sn.lord.ensae.hint.security.service;
+package sn.lord.security.service;
  
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails; 
@@ -6,9 +6,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException; 
 import org.springframework.security.crypto.password.PasswordEncoder; 
 import org.springframework.stereotype.Service;
-import sn.lord.ensae.hint.security.auth.UserInfoDetails;
-import sn.lord.ensae.hint.security.entity.UserInfo;
-import sn.lord.ensae.hint.security.repository.UserInfoRepository;
+import sn.lord.security.auth.UserInfoDetails;
+import sn.lord.security.entity.UserInfo;
+import sn.lord.security.repository.UserInfoRepository;
 
 import java.util.Optional;
 import java.util.UUID;

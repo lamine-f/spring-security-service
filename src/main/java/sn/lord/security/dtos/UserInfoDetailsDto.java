@@ -1,4 +1,4 @@
-package sn.lord.ensae.hint.security.dtos;
+package sn.lord.security.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -6,13 +6,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import sn.lord.ensae.hint.security.auth.UserInfoDetails;
-import sn.lord.ensae.hint.security.entity.UserInfo;
 
 import java.io.Serializable;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
